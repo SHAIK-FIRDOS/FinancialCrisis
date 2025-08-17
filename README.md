@@ -4,12 +4,13 @@ This repository contains code for the paper "**[Predicting Financial Crises: An 
 
 ## Code Structure
 
-* **altCrisisData.py**: Accesses alternative crisis data sources (ESRB, Laeven & Valencia).
-* **doExperiment.py**: Runs experiments with various models and designs (Cross-Validation, Strict Forecasting, In-Sample).
-* **prepareData.py**: Loads and processes crisis events and early warning indicators.
+* **CrisisData.py**: Accesses alternative crisis data sources (ESRB, Laeven & Valencia).
+* **Experiment.py**: Runs experiments with various models and designs (Cross-Validation, Strict Forecasting, In-Sample).
+* **PrepareData.py**: Loads and processes crisis events and early warning indicators.
 * **utils.py**: Custom train/test splitting methods.
 
 Python packages used include Scikit-Learn, Pandas, Numpy, Matplotlib, and Alibi Explain for ALE plots.
+
 
 
 
